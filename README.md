@@ -8,33 +8,8 @@ This CLI has command:
 * converter <path_file> -t json -o <path_file>
 * converter <path_file> -t text -o <path_file>
 &nbsp;
-## RESTful endpoints
-### GET /covidnow
-> Get a data of Covid in Indonesia in real time
-_Request Header_
+## How to use in it any directory
+after cloning this code then type this in terminal:
 ```
-not needed
+npm install -g
 ```
-_Request Body_
-```
-not needed
-```
-_Response (200)_
-```
-[
-  {
-    "name": "Indonesia",
-    "positif": "1,505,775",
-    "sembuh": "1,342,695",
-    "meninggal": "40,754",
-    "dirawat": "122,326"
-  }
-]
-```
-_Response (400)_
-```
-{
-  "message": "<err.message>"
-}
-```
-
